@@ -26,7 +26,9 @@ Plant Manager
     - [License](#license)
 
 ## About
+GrowBot is a service intented to monitor & aid in the growing plants. It is meant to run on a [Raspberry Pi](https://www.raspberrypi.com/) with a camera & electronics to automatewater pumps & lights.
 
+By creating grow profiles the amount of water & light can plants recieve can also be adjusted to ensure consistant results. Aditionally you can take notes at anytime which will automatically include images & a record of tempatures, air & soil humidity.
 
 ### Built With
 [![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular)](https://angular.io/)
