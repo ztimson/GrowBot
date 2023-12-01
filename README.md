@@ -61,6 +61,6 @@ By creating grow profiles the amount of water & light can plants recieve can als
 </details>
 
 ## License
-Copyright © 2023 Zakary Timson | All Rights Reserved | Available under MIT Licensing
+Copyright © 2023 Zakary Timson | All Rights Reserved
 
 See the [license](./LICENSE) for more information.
