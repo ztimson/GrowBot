@@ -6,15 +6,26 @@
   <img src="https://git.zakscode.com/repo-avatars/02c3c82a2c192095fa04a6ea4d92d9614d37ab508fc948938b37a9cfd3196734" alt="Logo" width="200" height="200">
 
   <!-- Title -->
-### GrowBot
+  ### GrowBot
 
   <!-- Description -->
-Plant Manager
+  Plant Manager
 
   <!-- Repo badges -->
-[![Version](https://img.shields.io/badge/dynamic/json.svg?label=Version&style=for-the-badge&url=https://git.zakscode.com/api/v1/repos/ztimson/GrowBot/tags&query=$[0].name)](https://git.zakscode.com/ztimson/GrowBot/tags)
-[![Pull Requests](https://img.shields.io/badge/dynamic/json.svg?label=Pull%20Requests&style=for-the-badge&url=https://git.zakscode.com/api/v1/repos/ztimson/GrowBot&query=open_pr_counter)](https://git.zakscode.com/ztimson/GrowBot/pulls)
+  [![Version](https://img.shields.io/badge/dynamic/json.svg?label=Version&style=for-the-badge&url=https://git.zakscode.com/api/v1/repos/ztimson/grow-bot/tags&query=$[0].name)](https://git.zakscode.com/ztimson/grow-bot/tags)
+  [![Pull Requests](https://img.shields.io/badge/dynamic/json.svg?label=Pull%20Requests&style=for-the-badge&url=https://git.zakscode.com/api/v1/repos/ztimson/grow-bot&query=open_pr_counter)](https://git.zakscode.com/ztimson/grow-bot/pulls)
+  [![Issues](https://img.shields.io/badge/dynamic/json.svg?label=Issues&style=for-the-badge&url=https://git.zakscode.com/api/v1/repos/ztimson/grow-bot&query=open_issues_count)](https://git.zakscode.com/ztimson/grow-bot/issues)
 
+  <!-- Links -->
+
+  ---
+  <div>
+    <a href="https://git.zakscode.com/ztimson/grow-bot/releases" target="_blank">Release Notes</a>
+    • <a href="https://git.zakscode.com/ztimson/grow-bot/issues/new?template=.github%2fissue_template%2fbug.md" target="_blank">Report a Bug</a>
+    • <a href="https://git.zakscode.com/ztimson/grow-bot/issues/new?template=.github%2fissue_template%2fenhancement.md" target="_blank">Request a Feature</a>
+  </div>
+
+  ---
 </div>
 
 ## Table of Contents
