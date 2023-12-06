@@ -1,0 +1,33 @@
+name: Build Website
+run-name: Build Website
+
+on:
+    push:
+        paths:
+            - '.github/workflows/website.yaml'
+            - 'website/**'
+
+jobs:
+    build:
+        name: Build NPM Project
+        runs-on: ubuntu-latest
+        container: node
+        steps:
+            - name: Clone Repository
+              uses: ztimson/actions/clone@develop
+
+            - name: Install Dependencies
+              run: npm i
+              working-directory: website
+
+            - name: Build Project
+              run: npm run build
+              working-directory: website
+
+            - name: Upload Artifacts
+              if: ${{inputs.artifacts}} != "false"
+              uses: actions/upload-artifact@v3
+              with:
+                  name: website
+                  path: website/dist
+                  retention-days: 7
